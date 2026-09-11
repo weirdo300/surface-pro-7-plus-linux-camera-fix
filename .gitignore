@@ -1,0 +1,37 @@
+# Build artifacts
+*.o
+*.ko
+*.so
+*.a
+*.deb
+*.rpm
+
+# Kernel build trees
+build/
+modules/
+*.cmd
+Module.symvers
+modules.order
+
+# Local logs and captures
+*.log
+*.raw
+*.yuv
+*.jpg
+*.jpeg
+*.png
+
+# Local/private configuration
+.env
+.env.*
+*.key
+*.pem
+*.priv
+*.p12
+*.pfx
+
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+.DS_Store
